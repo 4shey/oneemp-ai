@@ -1,0 +1,16 @@
+name: keep-alive
+
+on:
+  schedule:
+    # Render free menidurkan service setelah ~15 menit tanpa trafik.
+    # Ping tiap 5 menit agar scheduler tetap hidup.
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping healthz
+        run: |
+          curl -fsS --max-time 20 "${{ secrets.HEALTHCHECK_URL }}" >/dev/null || true

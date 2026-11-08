@@ -1,0 +1,68 @@
+services:
+  - type: web
+    name: one-more-percent
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: APP_TIMEZONE
+        value: Asia/Jakarta
+      - key: PUBLIC_BASE_URL
+        sync: false
+      - key: WEBHOOK_PATH
+        value: /webhook
+      - key: CRON_TICK_SECONDS
+        value: "60"
+      - key: DAILY_RECAP_TIME
+        value: "00:00"
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_USER_ID
+        sync: false
+      - key: TELEGRAM_API_BASE_URL
+        value: https://api.telegram.org
+      - key: TELEGRAM_WEBHOOK_SECRET
+        sync: false
+      - key: SHEETS_SPREADSHEET_ID
+        sync: false
+      - key: GOOGLE_CREDENTIALS_JSON
+        sync: false
+      - key: GOOGLE_SCOPE
+        value: https://www.googleapis.com/auth/spreadsheets
+      - key: SHEETS_API_BASE_URL
+        value: https://sheets.googleapis.com
+      - key: SHEETS_CACHE_TTL_SECONDS
+        value: "60"
+      - key: SHEET_NAME_SCHEDULES
+        value: schedules
+      - key: SHEET_NAME_PROGRESS
+        value: progress_logs
+      - key: SHEET_NAME_REMINDER_STATE
+        value: reminder_state
+      - key: SHEET_NAME_PROGRESS_ARCHIVE
+        value: progress_archive
+      - key: AI_PROVIDER
+        value: gemini
+      - key: AI_TIMEOUT_SECONDS
+        value: "30"
+      - key: AI_TEMPERATURE
+        value: "0.3"
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_BASE_URL
+        value: https://api.groq.com/openai/v1
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-120b
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_BASE_URL
+        value: https://generativelanguage.googleapis.com/v1beta
+      - key: GEMINI_MODEL
+        value: gemini-3.1-flash-lite
+      - key: PROMPTS_DIR
+        value: /app/prompts
+      - key: PROMPTS_HOT_RELOAD
+        value: "true"
+      - key: USER_CONTEXT
+        sync: false

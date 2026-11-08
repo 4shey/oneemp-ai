@@ -1,0 +1,10 @@
+.git
+.github
+tmp
+bin
+.env
+.env.*
+!.env.example
+google-credentials.json
+*-sa.json
+credentials
