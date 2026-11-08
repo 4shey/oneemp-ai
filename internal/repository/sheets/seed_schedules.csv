@@ -1,0 +1,57 @@
+type,date,day_of_week,start_time,end_time,activity
+weekly,,Monday,04:30,06:00,Olahraga
+weekly,,Monday,07:00,11:30,Kuliah / Belajar Produktif
+weekly,,Monday,13:00,16:00,Golang & Backend
+weekly,,Monday,16:00,17:00,Olahraga
+weekly,,Monday,17:00,20:00,English
+weekly,,Monday,20:00,21:00,Cyber Security
+weekly,,Monday,21:00,22:00,Web Development
+weekly,,Monday,22:00,23:00,AI Engineer
+weekly,,Tuesday,04:30,06:00,Olahraga
+weekly,,Tuesday,07:00,11:30,Kuliah / Belajar Produktif
+weekly,,Tuesday,13:00,16:00,Web Development
+weekly,,Tuesday,16:00,17:00,Olahraga
+weekly,,Tuesday,19:00,20:00,English
+weekly,,Tuesday,20:00,21:00,Data Science
+weekly,,Tuesday,21:00,22:00,Cyber Security
+weekly,,Tuesday,22:00,23:00,AI Engineer
+weekly,,Wednesday,04:30,06:00,Olahraga
+weekly,,Wednesday,07:00,11:30,Kuliah / Belajar Produktif
+weekly,,Wednesday,13:00,16:00,Data Science
+weekly,,Wednesday,16:00,17:00,Olahraga
+weekly,,Wednesday,19:00,20:00,English
+weekly,,Wednesday,20:00,21:00,Web Development
+weekly,,Wednesday,21:00,22:00,Cyber Security
+weekly,,Wednesday,22:00,23:00,AI Engineer
+weekly,,Thursday,04:30,06:00,Olahraga
+weekly,,Thursday,07:00,11:30,Kuliah / Belajar Produktif
+weekly,,Thursday,13:00,16:00,AI Engineer
+weekly,,Thursday,16:00,17:00,Olahraga
+weekly,,Thursday,19:00,20:00,English
+weekly,,Thursday,20:00,21:00,Cyber Security
+weekly,,Thursday,21:00,22:00,Web Development
+weekly,,Thursday,22:00,23:00,Data Science
+weekly,,Friday,04:30,06:00,Olahraga
+weekly,,Friday,07:00,11:30,Kuliah / Belajar Produktif
+weekly,,Friday,13:00,16:00,Cyber Security
+weekly,,Friday,16:00,17:00,Olahraga
+weekly,,Friday,19:00,20:00,English
+weekly,,Friday,20:00,21:00,AI Engineer
+weekly,,Friday,21:00,22:00,Web Development
+weekly,,Friday,22:00,23:00,Data Science
+weekly,,Saturday,04:30,06:00,Olahraga
+weekly,,Saturday,07:00,11:30,Project / Deep Work
+weekly,,Saturday,13:00,16:00,Portfolio & Project
+weekly,,Saturday,16:00,17:00,Olahraga
+weekly,,Saturday,19:00,20:00,English
+weekly,,Saturday,20:00,21:00,Cyber Security
+weekly,,Saturday,21:00,22:00,AI Engineer
+weekly,,Saturday,22:00,23:00,Web Development
+weekly,,Sunday,04:30,06:00,Olahraga
+weekly,,Sunday,07:00,11:30,Review Mingguan / Belajar
+weekly,,Sunday,13:00,16:00,Portfolio & Planning
+weekly,,Sunday,16:00,17:00,Olahraga
+weekly,,Sunday,19:00,20:00,English
+weekly,,Sunday,20:00,21:00,Data Science
+weekly,,Sunday,21:00,22:00,Cyber Security
+weekly,,Sunday,22:00,23:00,AI Engineer
